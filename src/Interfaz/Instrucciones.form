@@ -18,7 +18,7 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,7,0,0,2,90"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,7,0,0,2,91"/>
   </AuxValues>
 
   <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
@@ -26,12 +26,21 @@
   </Layout>
   <SubComponents>
     <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[370, 400]"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[12, 20]"/>
+        </Property>
+        <Property name="wheelScrollingEnabled" type="boolean" value="false"/>
+      </Properties>
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="120" y="40" width="370" height="440"/>
+          <AbsoluteConstraints x="90" y="20" width="420" height="480"/>
         </Constraint>
       </Constraints>
 
@@ -39,12 +48,25 @@
       <SubComponents>
         <Component class="javax.swing.JTextArea" name="jTextArea1">
           <Properties>
+            <Property name="editable" type="boolean" value="false"/>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="cc" red="cc" type="rgb"/>
             </Property>
             <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Freestyle Script" size="24" style="0"/>
+            </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="   Buen d&#xed;a Director,&#xa;&#xa;Soy el Secretario de direcci&#xf3;n de la &#xa;Facultad, y estoy aqu&#xed; para guiaros en los &#xa;primeros pasos de la direcci&#xf3;n acad&#xe9;mica.&#xa;&#xa;Cada turno llegan cinco refuerzos, que &#xa;pueden aumentar por los bonos espec&#xed;ficos &#xa;de las facultades controladas. Estos deben &#xa;ser colocados en su totalidad en los &#xa;edificios aliados.&#xa;&#xa;Luego comienza la fase de Transferencia y &#xa;Ataque, en que se podr&#xe1;n mover las tropas &#xa;a territorios conectados directamente, que, &#xa;en caso de estar controlados por el enemigo, &#xa;entrar&#xe1;n en batalla.&#xa;&#xa;Recuerde Director no desproteger sus &#xa;edificios, y que SIEMPRE, al menos un hombre &#xa;debe permanecer presente en cada edificio."/>
+            <Property name="text" type="java.lang.String" value="      Buen d&#xed;a Director,&#xa;&#xa; Soy el Secretario de direcci&#xf3;n de la Facultad, y estoy aqu&#xed; para &#xa; guiaros en los primeros pasos de la direcci&#xf3;n acad&#xe9;mica.&#xa;&#xa; Cada turno llegan cinco refuerzos, que pueden aumentar por los &#xa; bonos espec&#xed;ficos de las facultades controladas. &#xa; Estos deben ser colocados en su totalidad en los edificios aliados.&#xa;&#xa; Luego comienza la fase de Transferencia y Ataque, en que se &#xa; podr&#xe1;n mover las tropas a territorios conectados directamente, que,&#xa; en caso de estar controlados por el enemigo, entrar&#xe1;n en batalla.&#xa;&#xa; Recuerde Director proteger sus edificios, y que SIEMPRE, &#xa; al menos un hombre debe permanecer presente en cada edificio."/>
+            <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+              <Insets value="[3, 3, 3, 3]"/>
+            </Property>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[370, 400]"/>
+            </Property>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[370, 400]"/>
+            </Property>
           </Properties>
         </Component>
       </SubComponents>
@@ -57,7 +79,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="0" width="680" height="570"/>
+          <AbsoluteConstraints x="0" y="0" width="600" height="600"/>
         </Constraint>
       </Constraints>
     </Component>
