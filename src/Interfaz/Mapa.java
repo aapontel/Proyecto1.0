@@ -28,53 +28,104 @@ public class Mapa extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jButton10 = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
+        jButton16 = new javax.swing.JButton();
+        jButton17 = new javax.swing.JButton();
+        jButton18 = new javax.swing.JButton();
+        jButton19 = new javax.swing.JButton();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jButton20 = new javax.swing.JButton();
+        jButton21 = new javax.swing.JButton();
+        jButton22 = new javax.swing.JButton();
+        jButton23 = new javax.swing.JButton();
+        jButton24 = new javax.swing.JButton();
+        jButton25 = new javax.swing.JButton();
+        jButton26 = new javax.swing.JButton();
+        jButton27 = new javax.swing.JButton();
+        jButton28 = new javax.swing.JButton();
+        jButton29 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 40, 20));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 80, -1, 20));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 190, 30, 20));
 
-        jButton1.setBackground(new java.awt.Color(0, 0, 102));
-        jButton1.setText("0");
-        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton1MouseClicked(evt);
-            }
-        });
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                jButton4ActionPerformed(evt);
             }
         });
-        jButton1.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                jButton1KeyPressed(evt);
-            }
-        });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 350, 40, 20));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 140, 30, 20));
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 180, 30, 20));
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 210, 30, 20));
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 170, 40, 20));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Interfaz/mapa.jpg"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 0, 734, -1));
+        jButton8.setText("0");
+        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 140, 40, 20));
+        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 190, -1, 20));
+        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 260, -1, 30));
+        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 240, -1, 20));
+        getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 350, -1, 30));
+        getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 340, -1, 20));
+        getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 360, -1, 20));
+        getContentPane().add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 380, -1, 20));
+
+        jButton16.setText("0");
+        getContentPane().add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 240, -1, 20));
+        getContentPane().add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 210, -1, 20));
+        getContentPane().add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 270, -1, 20));
+        getContentPane().add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 330, -1, 20));
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 60, -1, -1));
+        getContentPane().add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 240, -1, 20));
+        getContentPane().add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 270, -1, 20));
+        getContentPane().add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 310, -1, 20));
+        getContentPane().add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, 20));
+        getContentPane().add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 260, -1, 20));
+        getContentPane().add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, -1, 20));
+        getContentPane().add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 210, -1, 20));
+        getContentPane().add(jButton27, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 360, -1, 20));
+        getContentPane().add(jButton28, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 310, -1, 20));
+        getContentPane().add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 400, -1, 20));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Interfaz/map.jpg"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 440));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_jButton4ActionPerformed
 
-    private void jButton1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jButton1KeyPressed
-       int i= 0; 
-       i++; 
-       System.out.println(" fg");
-    }//GEN-LAST:event_jButton1KeyPressed
-
-    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1MouseClicked
+    }//GEN-LAST:event_jComboBox1ActionPerformed
 
     /**
-     * @param args the command line arguments
-     */
+         * @param args the command line arguments
+         */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -102,13 +153,42 @@ public class Mapa extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Mapa().setVisible(false);
+                new Mapa().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
+    private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton26;
+    private javax.swing.JButton jButton27;
+    private javax.swing.JButton jButton28;
+    private javax.swing.JButton jButton29;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }

@@ -1,4 +1,3 @@
-
 package Interfaz;
 
 import java.awt.Container;
@@ -10,8 +9,8 @@ import static java.awt.image.ImageObserver.WIDTH;
  * @author admin
  */
 public class PantallaInicio extends javax.swing.JFrame {
-    
-   // private PantallaInicio pantallainicio;
+
+    // private PantallaInicio pantallainicio;
     public PantallaInicio() {
         initComponents();
         this.setLocationRelativeTo(null);
@@ -26,13 +25,10 @@ public class PantallaInicio extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
-        
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-
-        
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -41,7 +37,7 @@ public class PantallaInicio extends javax.swing.JFrame {
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 210, 100, -1));
 
         jButton3.setText("AYUDA");
-      
+
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 260, 100, -1));
 
         jButton4.setText("SALIR");
@@ -53,26 +49,23 @@ public class PantallaInicio extends javax.swing.JFrame {
         jButton3.setActionCommand("ayuda");
         jButton4.setActionCommand("salir");
         pack();
-        
-        
+
     }// </editor-fold>   
-    public void riskActionListeners(ActionListener evt){
+
+    public void riskActionListeners(ActionListener evt) {
         jButton2.addActionListener(evt);
         jButton3.addActionListener(evt);
         jButton4.addActionListener(evt);
     }
-                            
 
     /**
      * @param args the command line arguments
      */
-
-
     // Variables declaration - do not modify                     
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
-                   
+
 }
