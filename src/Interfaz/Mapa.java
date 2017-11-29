@@ -81,6 +81,12 @@ public class Mapa extends javax.swing.JFrame {
         getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 260, -1, 30));
         getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 240, -1, 20));
         getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 350, -1, 30));
+
+        jButton13.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton13MouseClicked(evt);
+            }
+        });
         getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 340, -1, 20));
         getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 360, -1, 20));
         getContentPane().add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 380, -1, 20));
@@ -103,6 +109,12 @@ public class Mapa extends javax.swing.JFrame {
         getContentPane().add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 310, -1, 20));
         getContentPane().add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, 20));
         getContentPane().add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 260, -1, 20));
+
+        jButton25.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton25MouseClicked(evt);
+            }
+        });
         getContentPane().add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, -1, 20));
         getContentPane().add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 210, -1, 20));
         getContentPane().add(jButton27, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 360, -1, 20));
@@ -122,6 +134,23 @@ public class Mapa extends javax.swing.JFrame {
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox1ActionPerformed
+int i= 0;
+    private void jButton25MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton25MouseClicked
+     
+        
+        String valor= ""+ i; 
+        jButton25.setText(valor); 
+        i++; // TODO add your handling code here:
+    }//GEN-LAST:event_jButton25MouseClicked
+int a=0; 
+    private void jButton13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton13MouseClicked
+        // TODO add your handling code here:
+        String valor= ""+ a; 
+        jButton13.setText(valor); 
+        a++; // TODO add your handling code here:
+        // TODO add your handling code here:
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton13MouseClicked
 
     /**
          * @param args the command line arguments
